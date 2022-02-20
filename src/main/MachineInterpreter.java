@@ -26,6 +26,7 @@ public class MachineInterpreter {
 		    
 		    if (isValid(trans, val)) {
    
+		    	
 				    if (trans.hasSetOperation())
 				    	machine.getIntegers().put(trans.getOperationVariableName().toString(), trans.getSetValue());
 				    
