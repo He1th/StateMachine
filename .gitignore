@@ -4,6 +4,9 @@
 # Log file
 *.log
 
+# Hidden files
+git add .hidden*
+
 # BlueJ files
 *.ctxt
 
